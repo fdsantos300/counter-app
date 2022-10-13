@@ -1,8 +1,17 @@
+
+:root {
+  --blue: #002B5B;
+  --turquoise: #8FE3CF;
+  --cyan-blue: #2B4865;
+  --cyan: #256D85;
+  
+}
+
 body {
   margin: 0;
   padding: 0;
-  background-color: #002B5B;
-  color: #8FE3CF;
+  background-color: var(--blue);
+  color: var(--turquoise);
   font-family: 'Ubuntu', sans-serif;
   height: 100vh;
 }
@@ -16,8 +25,8 @@ body {
 }
 
 .container {
-  background-color: #2B4865;
-  border: solid 3px #256D85;
+  background-color: var(--cyan-blue) ;
+  border: solid 3px var(--cyan);
   border-radius: 7px;
   max-width: 230px;
   text-align: center;
