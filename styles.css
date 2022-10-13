@@ -1,10 +1,10 @@
-
 :root {
   --blue: #002B5B;
   --turquoise: #8FE3CF;
   --cyan-blue: #2B4865;
   --cyan: #256D85;
-  
+  --white: #ffffff;
+  --green-cyan: #80CCBA;
 }
 
 body {
@@ -16,7 +16,7 @@ body {
   height: 100vh;
 }
 
-.main{
+.main {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,13 +25,12 @@ body {
 }
 
 .container {
-  background-color: var(--cyan-blue) ;
+  background-color: var(--cyan-blue);
   border: solid 3px var(--cyan);
   border-radius: 7px;
   max-width: 230px;
   text-align: center;
   padding: 10px;
-
 }
 
 h1 {
@@ -39,37 +38,41 @@ h1 {
 }
 
 h2 {
-
   font-size: 50px;
   margin-top: 0;
   margin-bottom: 20px;
-  color: white;
+  color: var(--white);
 }
 
 button {
   border: none;
   padding-top: 10px;
   padding-bottom: 10px;
-  color: white;
+  color: var(--white);
   font-weight: bold;
   width: 150px;
   margin-bottom: 5px;
   border-radius: 5px;
 }
 
-button:active{
+button:active {
   transform: translateY(2px);
 }
 
-
 #increment-btn {
-  background: #256D85;
-  color: white;
+  background: var(--cyan);
+  color: var(--white);
 }
 
 #save-btn {
-  background: #80CCBA;
-  color: white;
+  background: var(--green-cyan);
+  color: var(--white);
 }
 
-#002B5B #2B4865 #256D85 #8FE3CF
+.entries {
+  color: var(--white);
+}
+
+.entrie-text {
+  color: var(--white);
+}
